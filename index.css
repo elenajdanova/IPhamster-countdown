@@ -24,3 +24,11 @@ body, html {
   flex-grow: 1;
   align-self: center;
 }
+
+
+@media only screen and (max-width: 750px) {
+  .item {
+    flex-grow: 0;
+    width: 100vw;
+  }
+}
